@@ -1,0 +1,193 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    user-select: none;
+}
+
+.wholeBody{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.mobile{
+    height: 500px;
+    width: 600px;
+    max-height: 700px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    border-bottom-right-radius: 160px;
+    padding-top: 30px;
+    position: relative;
+}
+
+.linenimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+.field{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 11px;
+    color: red;
+    font-style: italic;
+}
+
+.thaday{
+    margin-left: 50px;
+    display: none;
+}
+
+.thaday.error{
+    display: block;
+}
+
+.thamonth{
+    position: absolute;
+    left: 200px;
+    display: none;
+}
+
+.thamonth.error{
+    display: block;
+}
+
+.thayear{
+    position: absolute;
+    left: 352px;
+    display: none;
+}
+
+.thayear.error{
+    display: block;
+}
+
+.valid{
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    color: red;
+    font-style: italic;
+}
+
+.thatday{
+    margin-left: 50px;
+    display: none;
+}
+
+.thatday.error{
+    display: block;
+}
+
+.thatmonth{
+    position: absolute;
+    left: 200px;
+    display: none;
+}
+
+.thatmonth.error{
+    display: block;
+}
+
+.thatyear{
+    position: absolute;
+    left: 352px;
+    display: none;
+}
+
+.thatyear.error{
+    display: block;
+}
+
+.line{
+    border: 1px solid rgb(236, 236, 236);
+    border-top: none;
+    /* border-color: hsl(0, 1%, 44%); */
+    width: 450px;
+}
+
+.imgofarrow{
+    background-color: rgb(134, 76, 255);
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.imgofarrow:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+label{
+    font-size: 14px;
+    margin-right: 113px;
+    font-weight: bold;
+    /* margin-left: 70px; */
+    color: rgb(140, 140, 140);
+}
+
+label.error{
+    color: red;
+}
+
+.label1{
+    margin-left: 55px;
+}
+
+.yearx{
+    margin-left: -30px;
+}
+
+input{
+    caret-color: rgb(120, 101, 165);
+    margin-top: 5px;
+    width: 120px;
+    height: 50px;
+    padding: 12px;
+    font-size: 20px;
+    border: 2px solid rgb(236, 236, 236);
+    border-radius: 6px;
+    margin-right: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid rgb(120, 101, 165);
+}
+
+input.error{
+    border: 2px solid red;
+}
+
+.input1{
+    margin-left: 50px;
+}
+
+.spanit{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    font-size: 65px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.anotherdash{
+    color: rgb(134, 76, 255);
+}
